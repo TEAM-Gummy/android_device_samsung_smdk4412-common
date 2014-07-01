@@ -32,6 +32,7 @@ ARCH_ARM_HAVE_NEON := true
 ARCH_ARM_HAVE_TLS_REGISTER := true
 TARGET_GLOBAL_CFLAGS += -mtune=cortex-a9 -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mtune=cortex-a9 -mfpu=neon -mfloat-abi=softfp
+TARGET_GCC_VERSION_EXP := 4.7
 
 EXYNOS4X12_ENHANCEMENTS := true
 EXYNOS4_ENHANCEMENTS := true
