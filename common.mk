@@ -35,7 +35,7 @@ PRODUCT_COPY_FILES := \
     $(COMMON_PATH)/rootdir/ueventd.smdk4x12.rc:recovery/root/ueventd.smdk4x12.rc
 
 # TWRP
-PRODUCT_COPY_FILES := \
+PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/recovery/twrp.fstab:recovery/root/etc/twrp.fstab
 
 # Audio
