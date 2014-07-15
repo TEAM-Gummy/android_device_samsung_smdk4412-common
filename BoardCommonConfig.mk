@@ -165,6 +165,7 @@ BOARD_HAL_STATIC_LIBRARIES := libhealthd.exynos4
 -include vendor/samsung/smdk4412-common/BoardConfigVendor.mk
 
 # TWRP
+RECOVERY_VARIANT := twrp
 RECOVERY_SD_CARD_ON_DATA := true
 BOARD_HAS_NO_REAL_SDCARD := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
